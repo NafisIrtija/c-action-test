@@ -10,3 +10,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
          - run: echo "Hello, GitHub actions"
+
+         - name: Check out this repo
+           uses: actions/checkout@v3
